@@ -37,7 +37,4 @@ jobs:
                 
           - name: Deploy
             run: |
-                gcloud run deploy $SERVICE_NAME \
-                  --region $RUN_REGION \
-                  --image gcr.io/$PROJECT_ID/$SERVICE_NAME:$GITHUB_SHA \
-                  --platform managed 
+                gcloud run deploy $SERVICE_NAME --region $RUN_REGION --image gcr.io/$PROJECT_ID/$SERVICE_NAME:$GITHUB_SHA --platform managed 
