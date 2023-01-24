@@ -5,7 +5,7 @@ on:
         branches:
             - master
 
-# Environment variables available to all jobs and steps in this workflow
+# Environment variables available to all jobs and steps in this workflows
 env:
     PROJECT_ID: ${{ secrets.RUN_PROJECT }}
     RUN_REGION: us-east1
