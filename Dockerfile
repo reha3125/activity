@@ -7,5 +7,5 @@ COPY . .
 # Build the application
 RUN npm run build
 
-# Start the applicationhaa
+# Start the applicationhaas
 CMD ["npm", "start"]
